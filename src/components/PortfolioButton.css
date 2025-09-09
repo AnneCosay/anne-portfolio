@@ -1,0 +1,14 @@
+.portfolio-btn {
+  background-color: #2dd4bf;
+  color: #fff;
+  padding: 0.8rem 1.5rem;
+  border-radius: 999px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  display: inline-block;
+}
+
+.portfolio-btn:hover {
+  background-color: #14b8a6; /* darker teal */
+}
