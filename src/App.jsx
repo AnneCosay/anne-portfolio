@@ -1,15 +1,21 @@
-import { useState } from 'react'
-import './App.css'
-import Header from './components/header'
-import HSubtitle from './components/HSubtitle'
-import PortfolioButton from './components/PortfolioButton'
+import React from "react";
+import "./App.css";
+import Navbar from "./components/Navbar";
+import Header from "./components/Header";
+import About from "./components/About";
+import Projects from "./components/Projects";
+import Education from "./components/Education";
+import Skills from "./components/Skills";
 
 function App() {
   return (
-    <div className="App">
+    <div>
+      <Navbar />
       <Header />
-      <HSubtitle/>
-      <PortfolioButton/>
+      <About />
+      <Skills />
+      <Projects />
+      <Education />
     </div>
   );
 }

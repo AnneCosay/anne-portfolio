@@ -1,16 +1,18 @@
 import React from "react";
 import "./Header.css";
-import HSubtitle from "./HSubtitle"; 
-import PortfolioButton from "./PortfolioButton"; 
 
 const Header = () => {
   return (
-    <header className="Header">
-      <div className="Header-content">
-        <img src="/profile.png" alt="Profile" className="profile-pic" />
-        <h1 className="Header-title">
-          Hi, I'm <span className="highlight">Shane Anne Gonzales Cosay</span>
+    <header className="header">
+      <div className="header-content">
+        <img src="profile.png" alt="Profile" className="profile-pic" />
+        <h1>
+          Hi, I'm <span>Shane Anne Gonzales Cosay</span>
         </h1>
+        <p>
+          A passionate IT student and aspiring software developer. <br />
+          Welcome to my page!
+        </p>
       </div>
     </header>
   );

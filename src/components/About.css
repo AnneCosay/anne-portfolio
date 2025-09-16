@@ -1,0 +1,72 @@
+.about-section {
+  padding: 60px 20px;
+  background-color: #0d1117;
+  color: #c9d1d9;
+  text-align: center;
+}
+
+.about-title {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #00c896;
+  margin-bottom: 30px;
+  text-align: left;
+}
+
+.about-card {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  background-color: #161b22;
+  border-radius: 10px;
+  padding: 20px;
+  gap: 20px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+
+  /* ✅ Make it smaller and centered */
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.about-left {
+  flex: 0 0 140px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-image {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 4px solid #00c896;
+  object-fit: cover;
+}
+
+.about-right {
+  flex: 1;
+  text-align: left;
+}
+
+.about-name {
+  font-size: 1.4rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #ffffff;
+}
+
+.about-right p {
+  margin: 5px 0;
+  line-height: 1.6;
+}
+
+.about-right strong {
+  color: #00c896;
+}
+
+.about-bio {
+  margin-top: 15px;
+  color: #a5b3c3;
+  font-size: 1rem;
+  line-height: 1.6;
+}

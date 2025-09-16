@@ -1,12 +1,11 @@
 .header {
-  background-color: #0d1b2a; /* dark navy background */
-  color: #fff;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 4rem 1rem;
   text-align: center;
-  min-height: 100vh;
+  padding: 80px 20px;
+  background-color: #0d1117; /* dark theme background */
+  color: #c9d1d9;
 }
 
 .header-content {
@@ -14,20 +13,26 @@
 }
 
 .profile-pic {
-  width: 120px;
-  height: 120px;
+  width: 140px;
+  height: 140px;
   border-radius: 50%;
-  border: 4px solid #2dd4bf; /* teal border */
-  margin-bottom: 1.5rem;
+  border: 4px solid #00c896; /* green border */
+  margin-bottom: 20px;
   object-fit: cover;
 }
 
-.header-title {
-  font-size: 2rem;
-  font-weight: 600;
-  margin-bottom: 0.8rem;
+.header h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 15px;
 }
 
-.highlight {
-  color: #2dd4bf; /* teal accent */
+.header h1 span {
+  color: #00c896; /* highlight name */
+}
+
+.header p {
+  font-size: 1.1rem;
+  line-height: 1.5;
+  color: #a5b3c3;
 }
