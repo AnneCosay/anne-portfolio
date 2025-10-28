@@ -1,0 +1,96 @@
+.translator-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #0d1117;
+  padding: 60px 20px;
+  color: #ffffff;
+}
+
+.translator-container {
+  background-color: #161b22;
+  border-radius: 16px;
+  padding: 40px;
+  box-shadow: 0 0 20px rgba(0, 255, 200, 0.3);
+  max-width: 600px;
+  width: 100%;
+  text-align: center;
+}
+
+.translator-container h2 {
+  font-size: 1.8rem;
+  color: #00c896;
+  margin-bottom: 20px;
+  font-weight: bold;
+  
+}
+
+.input-box,
+.output-box {
+  width: 95%;
+  padding: 12px;
+  background-color: #0d1117;
+  color: #fff;
+  border: 1px solid #00c896;
+  border-radius: 10px;
+  font-size: 1rem;
+  margin-bottom: 20px;
+  resize: none;
+  outline: none;
+  transition: 0.2s;
+}
+
+.input-box:focus,
+.output-box:focus {
+  border-color: #00ffcc;
+  box-shadow: 0 0 10px #00ffcc;
+}
+
+.translator-controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  gap: 10px;
+}
+
+.language-picker {
+  background-color: #00c896;
+  color: #000;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 4px;
+  font-weight: bold;
+  cursor: pointer;
+  outline: none;
+}
+
+.language-picker:hover {
+  background-color: #00e6b0;
+}
+
+button {
+  background-color: #00c896;
+  color: #000;
+  border:none;
+  border-radius: 8px;
+  padding: 12px 25px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+button:hover {
+  background-color: #00e6b0;
+  transform: scale(1.03);
+}
+
+.error-text {
+  color: #ff6b6b;
+  font-size: 0.9rem;
+  margin-top: 10px;
+}
